@@ -72,7 +72,7 @@ nav {
 	padding: 20px 0px 0px 0px;
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 nav a {
 	text-decoration: none;
@@ -90,7 +90,7 @@ nav .logo {
 main h1 {
 	font-size: 70px;
 	text-align: center;
-	margin: 0px 0px 0px 0px;
+	margin: 0px auto;
 }
 
 main h1 button {
@@ -139,8 +139,7 @@ main h2 {
 	padding: 10px 0px 10px 0px;
 }
 main img {
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
+	margin: 0px auto;
 }
 #text-above-img {
 	padding: 10px 0px 10px 0px;
@@ -150,9 +149,12 @@ main img {
 	padding: 10px 0px 10px 0px;
 }
 #text-below-img {
-	padding: 10px 0px 10px 0px;
+	padding: 10px 10px 10px 10px;
 	display: flex;
 }
+/* #text-below-img p {
+	padding: 0px 10px;
+} */
 .service-categories, .additional-facts {
 	padding: 10px 0px 10px 0px;
 	display: flex;
