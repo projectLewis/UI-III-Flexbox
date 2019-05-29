@@ -193,14 +193,6 @@ main img {
 	flex-direction: column;
 	align-content: center;
 }
-/* .product-cat-child {
-	padding-top: 10px;
-	margin-bottom: 30px;
-	border: 1px solid black;
-	height: 180px;
-	width: 380px;
-	background-color: rgb(243, 241, 241);
-} */
 .product-cat-child button, .product-cat-child h3, .product-cat-child p {
 	margin-left: 20px;
 }
