@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	max-width: 900px;
+	margin: 0 auto;
 }
 ol, ul {
 	list-style: none;
@@ -67,7 +69,7 @@ h1, h2, h3, h4, h5 {
 
 nav {
 	margin: 0;
-	padding: 20px 205px 0px 120px;
+	padding: 20px 0px 0px 0px;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
@@ -75,7 +77,6 @@ nav {
 nav a {
 	text-decoration: none;
 	color: lightgray;
-	padding: 0px 50px 0px 0px;
 }
 nav .logo {
 	padding: 0px 0px 0px 0px;
@@ -83,14 +84,13 @@ nav .logo {
  .service-statement, .index {
 	vertical-align: middle;
 	margin: 50px 0px 30px 0px;
-	padding: 0px 0px 30px 150px;
+	padding: 0px 0px 30px 0px;
 	display: flex;
 }
 main h1 {
 	font-size: 70px;
 	text-align: center;
 	margin: 0px 0px 0px 0px;
-	padding: 0px 70px 0px 70px;
 }
 
 main h1 button {
@@ -108,7 +108,7 @@ main h1 button:hover {
 }
 .service-statement {
 	margin: 0px 0px;
-	padding: 10px 210px 10px 100px;
+	padding: 10px 0px 10px 0px;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -136,25 +136,25 @@ main h2 {
 	padding: 0px 0px;
 }
 .product-header-img {
-	padding: 10px 10px 10px 100px;
+	padding: 10px 0px 10px 0px;
 }
 main img {
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 }
 #text-above-img {
-	padding: 10px 210px 10px 100px;
+	padding: 10px 0px 10px 0px;
 	display: flex;
 }
 .middle-img, .services-header-img {
-	padding: 10px 10px 10px 100px;
+	padding: 10px 0px 10px 0px;
 }
 #text-below-img {
-	padding: 10px 210px 10px 100px;
+	padding: 10px 0px 10px 0px;
 	display: flex;
 }
 .service-categories, .additional-facts {
-	padding: 10px 210px 10px 100px;
+	padding: 10px 0px 10px 0px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -187,7 +187,7 @@ main img {
 	padding-right: 10px;
 }
 .product-categories {
-	padding: 10px 210px 10px 100px;
+	padding: 10px 0px 10px 0px;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
@@ -199,10 +199,10 @@ main img {
 hr {
 	display: block;
 	position: relative;
-	margin: 18px 210px 18px 100px;
+	margin: 18px 0px 18px 0px;
 	padding: 10px 0px;
 	height: 0;
-	width: 74%;
+	width: 100%;
 	max-height: 0;
 	font-size: 1px;
 	line-height: 0;
@@ -214,10 +214,10 @@ hr {
  .services-hr {
 	display: block;
 	position: relative;
-	margin: 0px 210px 18px 100px;
+	margin: 0px 0px 18px 0px;
 	padding: 10px 0px;
 	height: 0;
-	width: 74%;
+	width: 100%;
 	max-height: 0;
 	font-size: 1px;
 	line-height: 0;
@@ -229,10 +229,10 @@ hr {
  .services-hr2 {
 	display: block;
 	position: relative;
-	margin: 0px 210px 33px 100px;
+	margin: 0px 0px 33px 0px;
 	padding: 0px 0px;
 	height: 0;
-	width: 74%;
+	width: 100%;
 	max-height: 0;
 	font-size: 1px;
 	line-height: 0;
@@ -246,7 +246,7 @@ hr {
 	margin-left: 15px;
 }
 footer {
-	padding: 20px 210px 10px 100px;
+	padding: 20px 0px 10px 0px;
 }
 footer h2 {
 	padding: 0px 0px;
